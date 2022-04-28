@@ -49,9 +49,7 @@ $ today_date=$(date +“%d-%m-%y”)
 > > If we assume the output directory is named `copied`:
 > > 
 > > 
-> 
-{: .bash}
-
+> {: .bash}
 > 
 > > ~~~
 > > today_date=$(date +"%d-%m-%y")
