@@ -1,4 +1,6 @@
 ---
+lesson_title: 'Automating Tasks with the Unix Shell'
+lesson_schedule_slug: shell-novice-schedule
 title: Loops
 slug: shell-novice-loops
 teaching: 15
@@ -174,7 +176,7 @@ so this loop prints out the first three lines of each data file in turn.
 > script runs, it is considered best practice to use indentation to highlight the loop body.
 > In general programming, indentation is very important. Without indentation in code blocks
 > such as these, code becomes much harder to read.
-
+{: .callout}
 
 ### Dos and don'ts of variable naming
 

@@ -1,4 +1,6 @@
 ---
+lesson_title: 'Automating Tasks with the Unix Shell'
+lesson_schedule_slug: shell-novice-schedule
 title: Creating Things
 slug: shell-novice-creating-things
 teaching: 15
@@ -35,14 +37,14 @@ $ pwd
 {: .language-bash}
 
 ~~~
-/Users/nelle/shell-novice/test_directory
+/Users/nelle/shell-novice/shell/test_directory
 ~~~
 {: .output}
 
 If you're not in this directory, use the `cd` command to navigate to it as covered in the last lesson, for example:
 
 ~~~
-$ cd ~/shell-novice/test_directory
+$ cd ~/shell-novice/shell/test_directory
 ~~~
 {: .language-bash}
 
@@ -217,7 +219,7 @@ $ pwd
 ~~~
 {: .language-bash}
 ~~~
-/Users/nelle/shell-novice/test_directory
+/Users/nelle/shell-novice/shell/test_directory
 ~~~
 {: .output}
 
@@ -293,7 +295,7 @@ $ pwd
 ~~~
 {: .language-bash}
 ~~~
-/Users/user/shell-novice/test_directory
+/Users/user/shell-novice/shell/test_directory
 ~~~
 {: .output}
 ~~~
