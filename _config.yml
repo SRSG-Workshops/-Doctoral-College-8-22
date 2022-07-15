@@ -12,7 +12,7 @@ kind: "workshop"
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
 title: "Introductory Research Data Management with R"
-
+form_title: "Introductory+Research+Data+Management+with+R" # This is required for the surveys
 # Email address, no mailto:
 email: "rsginfo@soton.ac.uk"
 
