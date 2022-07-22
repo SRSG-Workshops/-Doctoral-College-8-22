@@ -49,6 +49,9 @@ instructor-email:
 helper:
   - "Philly Broadbent"
 
+setup_docs:
+  - remote_desktop.md
+
 # Details about the lessons
 lessons:
   - title: Best Practices in Data Organisation Using Spreadsheets
