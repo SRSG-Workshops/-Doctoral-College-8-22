@@ -35,14 +35,16 @@ enddate: "2022-08-17"          # e.g. YYYY-MM-DD
 # Specify the details of the instructors and helpers
 # Can be list, or single string
 instructor:
+  - "Aleks Nenadic"
   - "Edward Parkinson"
   - "Max Albert"
   - "James Graham"
   - "Samuel Mangham"
   - "Philip Grylls"
 instructor-email:
-  - "ejp1v21@soton.ac.uk"
-  - "maximilian.albert@gmail.com"
+  - "a.nenadic@manchester.ac.uk"
+  - "e.parkinson@soton.ac.uk"
+  - "m.h.albert@soton.ac.uk"
   - "j.graham@soton.ac.uk"
   - "s.mangham@soton.ac.uk"
   - "p.j.grylls@soton.ac.uk"
