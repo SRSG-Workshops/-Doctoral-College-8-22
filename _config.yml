@@ -19,8 +19,9 @@ email: "rsginfo@soton.ac.uk"
 # Specify the location of the workshop
 # TODO: needs documenting a lot better
 venue: "online"           # name of location use "online" if online
-address: "https://teams.microsoft.com/l/team/19%3alSK87CJL-ZhRt6N4kvVBfAyb0AHH0iEVzVSANOmoVWE1%40thread.tacv2/conversations?groupId=916280ac-5520-4b9c-b493-a564c4d01e9f&tenantId=4a5378f9-29f4-4d3e-be89-669d03ada9d8"
+address: "https://teams.microsoft.com/l/team/19%3aRRGobFa1-bptvkGH-DgorDUjSIPK7lIqWwIHkvQvFY81%40thread.tacv2/conversations?groupId=3b3fef07-02cb-439e-8012-7111b955b1fc&tenantId=4a5378f9-29f4-4d3e-be89-669d03ada9d8"
 platform-name: "Teams"   # name of online platform e.g. Teams, Zoom e.t.c
+
 country: "gb"         # e.g. gb
 language: "en"        # e.g. en
 latitude: "50.909698"    # latitude of location (Soton: 50.909698)
@@ -29,8 +30,8 @@ longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 # Specify the start and end date of the workshop
 humandate: "8th August"      # e.g. "6th August"
 humantime: "09:30"      # e.g. "09:00-17:00"
-startdate: "2022-08-08"        # e.g. YYYY-MM-DD
-enddate: "2022-08-17"          # e.g. YYYY-MM-DD
+startdate: 2022-08-08      # e.g. YYYY-MM-DD
+enddate: 2022-08-17          # e.g. YYYY-MM-DD
 
 # Specify the details of the instructors and helpers
 # Can be list, or single string
