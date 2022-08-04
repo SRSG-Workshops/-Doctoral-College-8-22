@@ -1,23 +1,23 @@
 #------------------------------------------------------------
 # Values for this workshop.
 #------------------------------------------------------------
-# What kind of thing is this ("workshop" or "course")?
+# What kind of thing is this ("workshop")? #Don't Change
 kind: "workshop"
+# Is this a permanent page 'static' or a taught workshop 'dated'
+delivery: "dated"
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
-
-# Most workshops don't use extra pages. More information about extra
-# pages are included in the README:
-# https://github.com/carpentries/workshop-template#creating-extra-pages
 title: "Introductory Research Data Management with R"
 form_title: "Introductory+Research+Data+Management+with+R" # This is required for the surveys
+
 # Email address, no mailto:
 email: "rsginfo@soton.ac.uk"
+logo_site: "https://rsgsoton.net"
 
+# For static delivery this section can all be ignored ==================================================================
 # Specify the location of the workshop
-# TODO: needs documenting a lot better
 venue: "online"           # name of location use "online" if online
 address: "https://teams.microsoft.com/l/team/19%3aRRGobFa1-bptvkGH-DgorDUjSIPK7lIqWwIHkvQvFY81%40thread.tacv2/conversations?groupId=3b3fef07-02cb-439e-8012-7111b955b1fc&tenantId=4a5378f9-29f4-4d3e-be89-669d03ada9d8"
 platform-name: "Teams"   # name of online platform e.g. Teams, Zoom e.t.c
@@ -37,20 +37,19 @@ enddate: 2022-08-17          # e.g. YYYY-MM-DD
 # Can be list, or single string
 instructor:
   - "Aleks Nenadic"
-  - "Edward Parkinson"
-  - "Max Albert"
   - "James Graham"
   - "Samuel Mangham"
   - "Philip Grylls"
 instructor-email:
   - "a.nenadic@manchester.ac.uk"
-  - "e.parkinson@soton.ac.uk"
-  - "m.h.albert@soton.ac.uk"
   - "j.graham@soton.ac.uk"
   - "s.mangham@soton.ac.uk"
   - "p.j.grylls@soton.ac.uk"
 helper:
   - "Philly Broadbent"
+  - "Edward Parkinson"
+  - "Max Albert"
+# ======================================================================================================================
 
 setup_docs:
   - remote_desktop.md
@@ -147,7 +146,6 @@ lc_site: "https://librarycarpentry.org/"
 swc_github: "https://github.com/swcarpentry"
 swc_pages: "https://swcarpentry.github.io"
 swc_site: "https://software-carpentry.org"
-rsg_site: "https://rsgsoton.net"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
 workshop_repo: "https://github.com/carpentries/workshop-template"
@@ -192,8 +190,12 @@ highlighter: rouge
 # Using the new jekyll remote themes
 remote_theme: Southampton-RSG-Training/rsg-theme
 
+github_username:  PipGrylls
+github: PipGrylls
+
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-target-blank
+  - jekyll-github-metadata
