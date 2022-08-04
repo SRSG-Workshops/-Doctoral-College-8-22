@@ -302,16 +302,19 @@ def main():
 
         if website_kind == 'workshop':
             if website_delivery == 'dated':
+                print(lesson_dates)
+                print(lesson_starts)
                 if type(lesson_dates) is not list:
                     lesson_dates = [lesson_dates]
                 if type(lesson_starts) is not list:
                     lesson_starts = [lesson_starts]
-
+                print(lesson_dates)
+                print(lesson_starts)
                 if len(lesson_dates) > 1 and len(lesson_starts) == 1:
                     lesson_starts *= len(lesson_dates)
                 else:
                     try:
-                        assert len(lesson_dates) != len(lesson_starts), "Lesson starts must be a single value " \
+                        assert len(lesson_dates) == len(lesson_starts), "Lesson starts must be a single value " \
                                                                         "or the same length as lesson dates"
                     except Exception as e:
                         raise ValueError(e)
