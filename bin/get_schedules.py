@@ -302,14 +302,11 @@ def main():
 
         if website_kind == 'workshop':
             if website_delivery == 'dated':
-                print(lesson_dates)
-                print(lesson_starts)
                 if type(lesson_dates) is not list:
                     lesson_dates = [lesson_dates]
                 if type(lesson_starts) is not list:
                     lesson_starts = [lesson_starts]
-                print(lesson_dates)
-                print(lesson_starts)
+
                 if len(lesson_dates) > 1 and len(lesson_starts) == 1:
                     lesson_starts *= len(lesson_dates)
                 else:
