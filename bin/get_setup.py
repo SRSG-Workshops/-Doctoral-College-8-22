@@ -33,7 +33,7 @@ for n, lesson_info in enumerate(website_config['lessons']):
         set_up_docs = set_up_docs + [x for x in episode_config['setup_docs'] if x not in set_up_docs]
 
 # Get the images for the setup documents
-copy_tree(f"submodules/setup-documents/fig", "fig/")
+copy_tree(f"submodules/setup-documents/fig/", "fig/")
 
 #for each element in the list
 #paste into a string 'submodules/setup-documents/markdown'+setup docs element
