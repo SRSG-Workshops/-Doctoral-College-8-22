@@ -104,6 +104,8 @@ as it can open Excel spreadsheets, which is the format of the data we will work 
   - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you do not need to make one. Your download should begin automatically.
 - Install LibreOffice
 - Once the installer is downloaded, double click on it and LibreOffice should install.
+## Download Data for OpenRefine Lesson ##
+
 The Portal Project Teaching Dataset is a real dataset that has been used in over 100 publications. We have simplified it
 for the purposes of this lesson, but you can download the full dataset (see below for details) and work with it
 using exactly the same tools we will learn here.
@@ -118,8 +120,8 @@ For this lesson you will need [OpenRefine](http://openrefine.org/) (formerly Goo
 Download the most recent version of [OpenRefine](http://openrefine.org/download.html) for your operating system,
 then follow the instructions below.
 
-[OpenRefine](http://openrefine.org/) is a Java program that runs locally on your machine (i.e. you are not accessing a remote service on the Internet). Most recent versions of
-OpenRefine for Windows and Mac come with embedded Java, in which case you do not need a separate Java installation.
+[OpenRefine](http://openrefine.org/) is a Java program that runs locally on your machine (i.e. you are not accessing a remote service on the Internet). 
+OpenRefine for Mac come with embedded Java, on Windows please select Windows kit with embedded Java, on Linux you will need to install Java separately.
 
 Once it is running on your machine, you access it via your browser at the address [http://localhost:3333](http://localhost:3333). No Internet connection is needed for this as the programme is running locally.
 
